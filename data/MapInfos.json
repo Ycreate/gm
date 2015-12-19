@@ -1,0 +1,10 @@
+[
+null,
+{"id":1,"expanded":true,"name":"MAP001","order":2,"parentId":5,"scrollX":515,"scrollY":318.5},
+{"id":2,"expanded":true,"name":"アジト001","order":3,"parentId":1,"scrollX":534,"scrollY":318.5},
+{"id":3,"expanded":false,"name":"工場","order":7,"parentId":1,"scrollX":534,"scrollY":318.5},
+{"id":4,"expanded":false,"name":"MAP004","order":6,"parentId":6,"scrollX":534,"scrollY":318.5},
+{"id":5,"expanded":true,"name":"メニュー","order":1,"parentId":0,"scrollX":534,"scrollY":318.5},
+{"id":6,"expanded":false,"name":"MAP006","order":5,"parentId":2,"scrollX":534,"scrollY":1614.5},
+{"id":7,"expanded":false,"name":"アジト1","order":4,"parentId":2,"scrollX":534,"scrollY":305.5}
+]
