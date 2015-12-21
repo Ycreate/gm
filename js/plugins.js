@@ -10,5 +10,10 @@ var $plugins =
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"ON","ピクチャ番号の変数番号":"0"}},
 {"name":"HIME_EquipSlotsCore","status":true,"description":"Provides you with tools to set up custom equip slots for\r\neach actor individually.","parameters":{}},
 {"name":"BattleActorFaceVisibility","status":true,"description":"戦闘中顔グラフィック表示プラグイン","parameters":{}},
-{"name":"TDDP_PreloadManager","status":true,"description":"マップ/シーン切り替え時、またブート時に素材の事前ロードを行います。","parameters":{"Preload System SFX":"true","Print Debug to Console":"false"}}
+{"name":"TDDP_PreloadManager","status":true,"description":"マップ/シーン切り替え時、またブート時に素材の事前ロードを行います。","parameters":{"Preload System SFX":"true","Print Debug to Console":"false"}},
+{"name":"hp","status":true,"description":"Makes enemy hp bar appear in battle. \r\n\r\n\r\n7. *","parameters":{"High HP Color\r":"#009900\r","Medium HP Color\r":"#ffcc00\r","Low HP Color\r":"#ff6600\r","Critical HP Color\r":"#ff3300\r"}},
+{"name":"Torigoya_QuickSkill","status":true,"description":"選択するとターンを消費せずに即発動するスキルを追加します。","parameters":{}},
+{"name":"UR65_SmartPhoneUI","status":true,"description":"スマホ用UI  ver 1.0.0\nUIのサイズをスマートフォン向けに最適化します。","parameters":{"タイトル":"1","メニュー":"1","アイテム":"1","スキル":"1","装備":"0","オプション":"1","ゲーム終了":"1","戦闘":"0","ショップ":"1","イベント関係":"0","アイコン位置修正":"1"}},
+{"name":"TitleCommandPosition","status":true,"description":"タイトルコマンドウィンドウの位置を変更します。","parameters":{"Offset X":"120","Offset Y":"0","Width":"240","Background":"0"}},
+{"name":"MaxItems","status":true,"description":"アイテムの所持可能数を変更.","parameters":{}}
 ];
