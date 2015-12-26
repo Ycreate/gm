@@ -7,11 +7,10 @@ var $plugins =
 {"name":"OrangeCustomEvents","status":true,"description":"This plugin Will let you add or copy events to the current map","parameters":{}},
 {"name":"AdjustPictureGraphical","status":true,"description":"ピクチャのグラフィカルな位置調整プラグイン","parameters":{}},
 {"name":"BattleBalanceCustom","status":true,"description":"デフォルトで変更できない戦闘バランスを調整します。","parameters":{"criRate":"2","lukRate":"0.001","maxBuff":"4","buffRate":"0.25","iconBussStart":"32,40","iconDebussStart":"48,56","initTpRand":"25","initTpPlus":"0","damageTpBase":"50","damageTpPlus":"0"}},
-{"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"ON","ピクチャ番号の変数番号":"0"}},
+{"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"ON","ピクチャ番号の変数番号":"21"}},
 {"name":"HIME_EquipSlotsCore","status":true,"description":"Provides you with tools to set up custom equip slots for\r\neach actor individually.","parameters":{}},
 {"name":"BattleActorFaceVisibility","status":true,"description":"戦闘中顔グラフィック表示プラグイン","parameters":{}},
-{"name":"TDDP_PreloadManager","status":true,"description":"マップ/シーン切り替え時、またブート時に素材の事前ロードを行います。","parameters":{"Preload System SFX":"true","Print Debug to Console":"false"}},
-{"name":"Torigoya_QuickSkill","status":true,"description":"選択するとターンを消費せずに即発動するスキルを追加します。","parameters":{}},
+{"name":"TDDP_PreloadManager","status":false,"description":"マップ/シーン切り替え時、またブート時に素材の事前ロードを行います。","parameters":{"Preload System SFX":"true","Print Debug to Console":"false"}},
 {"name":"UR65_SmartPhoneUI","status":true,"description":"スマホ用UI  ver 1.0.0\nUIのサイズをスマートフォン向けに最適化します。","parameters":{"タイトル":"1","メニュー":"1","アイテム":"1","スキル":"1","装備":"0","オプション":"1","ゲーム終了":"1","戦闘":"0","ショップ":"1","イベント関係":"0","アイコン位置修正":"1"}},
 {"name":"TitleCommandPosition","status":true,"description":"タイトルコマンドウィンドウの位置を変更します。","parameters":{"Offset X":"120","Offset Y":"0","Width":"240","Background":"0"}},
 {"name":"MaxItems","status":true,"description":"アイテムの所持可能数を変更.","parameters":{}},
@@ -20,5 +19,9 @@ var $plugins =
 {"name":"enemybars","status":true,"description":"Makes enemy hp bar appear in battle.","parameters":{"High HP Color":"#009900","Medium HP Color":"#ffcc00","Low HP Color":"#ff6600","Critical HP Color":"#ff3300"}},
 {"name":"Yami_8DIR","status":true,"description":"プレイヤーの8方向の移動が可能になります。","parameters":{}},
 {"name":"liply_preload","status":false,"description":"テクスチャキャッシュの量を制限し、イベントで使用する画像を事前読み込みします。","parameters":{"Memory Limit":"50","Debug":"false"}},
-{"name":"MPP_ChoiceEX","status":true,"description":"【MPP】選択肢の機能拡張","parameters":{"maxPageRow":"8"}}
+{"name":"MPP_ChoiceEX","status":true,"description":"【MPP】選択肢の機能拡張","parameters":{"maxPageRow":"8"}},
+{"name":"PictureVariableSetting","status":true,"description":"ピクチャの変数設定プラグイン","parameters":{"初期値":"OFF"}},
+{"name":"Torigoya_QuickSkill","status":true,"description":"選択するとターンを消費せずに即発動するスキルを追加します。","parameters":{}},
+{"name":"YEP_SkillCore","status":true,"description":"スキルシステムにより多くの機能を実装し、\r\nコストの設定などができるようになります。","parameters":{"---一般---":"","Cost Padding":"4","Command Alignment":"center","---HP消費---":"","HP Format":"%1%2","HP Font Size":"20","HP Text Color":"18","HP Icon":"162","---MP消費---":"","MP Format":"%1%2","MP Font Size":"20","MP Text Color":"23","MP Icon":"165","---TP Costs---":"","TP Format":"%1%2","TP Font Size":"20","TP Text Color":"29","TP Icon":"164"}},
+{"name":"YEP_X_SkillCooldowns","status":true,"description":"スキルが連続で使われるのを防ぐため、\nクールダウンのシステムを導入できます。","parameters":{"---クールダウン---":"","Cooldown Format":"%1CD","Cooldown Font Size":"20","Cooldown Text Color":"6","Cooldown Icon":"75","Cooldown After Battle":"-10","Cooldown Steps":"5","Cooldown Bypass":"1 2 3 4 5 6 7","---ウォームアップ---":"","Warmup Format":"%1WU","Warmup Font Size":"20","Warmup Text Color":"4","Warmup Icon":"75"}}
 ];
