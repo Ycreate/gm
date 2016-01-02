@@ -25,5 +25,6 @@ var $plugins =
 {"name":"YEP_AutoPassiveStates","status":true,"description":"アクター、敵、スキル、装備のステートをパッシブにできます","parameters":{}},
 {"name":"EST_Build_And_Decor_EX","status":true,"description":"This plugin is the MANAGER to swap event with building / decorations based on item.\r\n<EST_BUILD_AND_DECOR>","parameters":{"VarIdForSelection":"25","DecorMoveSwitchId":"25","DecorMoveSelfSwitch":"C","DecorMoveCancelSelfSwitch":"B","DecorMoveMovementDelay":"15","CannotBePlacedOpacity":"150"}},
 {"name":"EST_Clone_Transform_Delete_Event","status":true,"description":"This plugin can add new event / transform existing event based on other event. and finally can delete the event.\r\n<EST_CLONE_TRANSFORM_DELETE_EVENT>","parameters":{}},
-{"name":"EST_Save_Map_Event","status":true,"description":"This plugin can make us save the map events so it won't be reloaded from database when entering new map.\r\n<EST_SAVE_MAP_EVENT>","parameters":{}}
+{"name":"EST_Save_Map_Event","status":true,"description":"This plugin can make us save the map events so it won't be reloaded from database when entering new map.\r\n<EST_SAVE_MAP_EVENT>","parameters":{}},
+{"name":"NovelMessage","status":false,"description":"全画面型のメッセージウィンドウです。","parameters":{"Switch ID":"26"}}
 ];
