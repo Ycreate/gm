@@ -10,7 +10,7 @@
  */
 
 /*:ja
- * @plugindesc ƒ†[ƒeƒBƒŠƒeƒBŠÖ”ŒQB
+ * @plugindesc ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£é–¢æ•°ç¾¤ã€‚
  * @author chunkof
  */
 
@@ -66,8 +66,8 @@ if (typeof chunkofUt === "undefined") {
   //   chunkofUt.inDay('Mon')
   //   chunkofUt.inDay('MON')
   //   chunkofUt.inDay('Monday')
-  //   chunkofUt.inDay('Œ')
-  //   chunkofUt.inDay('Œ—j')
+  //   chunkofUt.inDay('æœˆ')
+  //   chunkofUt.inDay('æœˆæ›œ')
   //
   chunkofUt.isDay = function(day){
     // make check param
@@ -80,7 +80,7 @@ if (typeof chunkofUt === "undefined") {
     
     // checker array
     var days_en = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-    var days_ja = ['“ú',  'Œ',  '‰Î',  '…',  '–Ø',  '‹à',  '“y'];
+    var days_ja = ['æ—¥',  'æœˆ',  'ç«',  'æ°´',  'æœ¨',  'é‡‘',  'åœŸ'];
     
     // Check
     if (days_en[today] == param_en){
@@ -95,5 +95,4 @@ if (typeof chunkofUt === "undefined") {
 
 
 })();
-
 
