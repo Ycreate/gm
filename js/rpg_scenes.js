@@ -1,5 +1,5 @@
 //=============================================================================
-// rpg_scenes.js
+// rpg_scenes.js v1.3.1
 //=============================================================================
 
 //-----------------------------------------------------------------------------
@@ -161,11 +161,14 @@ Scene_Boot.prototype.create = function() {
     Scene_Base.prototype.create.call(this);
     DataManager.loadDatabase();
     ConfigManager.load();
-    this.loadSystemImages();
+    this.loadSystemWindowImage();
 };
 
-Scene_Boot.prototype.loadSystemImages = function() {
+Scene_Boot.prototype.loadSystemWindowImage = function() {
     ImageManager.loadSystem('Window');
+};
+
+Scene_Boot.loadSystemImages = function() {
     ImageManager.loadSystem('IconSet');
     ImageManager.loadSystem('Balloon');
     ImageManager.loadSystem('Shadow1');
@@ -1499,6 +1502,7 @@ Scene_Save.prototype.onSavefileOk = function() {
 
 Scene_Save.prototype.onSaveSuccess = function() {
     SoundManager.playSave();
+	StorageManager.cleanBackup(this.savefileId());
     this.popScene();
 };
 
